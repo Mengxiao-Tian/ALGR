@@ -1,5 +1,5 @@
 This is implementation for the paper "Adaptive Latent Graph Representation Learning for Image-Text Matching" (ALGR, TIP 2022). 
-It is built on top of CAMERA(https://github.com/LgQu/CAMERA) and SCAN(https://github.com/kuanghuei/SCAN).
+It is built on top of [CAMERA](https://github.com/LgQu/CAMERA) and [SCAN](https://github.com/kuanghuei/SCAN).
 
 
 ## Requirements 
@@ -19,11 +19,11 @@ We use the BERT code from [BERT-pytorch](https://github.com/huggingface/pytorch-
 ## Training new models
 For MSCOCO:
 
-Run `script_coco.sh`:
+Run `script_coco.sh`
 
 For Flickr30K:
 
-Run `script_f30k.sh`:
+Run `script_f30k.sh`
 
 
 ## Evaluate trained models
