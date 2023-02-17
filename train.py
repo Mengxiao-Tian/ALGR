@@ -55,7 +55,7 @@ def main():
     opt.do_lower_case = True
     opt.measure = True
 
-    vocab = pickle.load(open('./vocab/f30k_precomp_vocab.pkl', 'rb'))
+    vocab = pickle.load(open('./vocab/f30k_precomp_vocab.pkl', 'rb'))#./vocab/coco_precomp_vocab.pkl
     opt.vocab_size = len(vocab)
     opt.vocab = vocab
     # Load data loaders

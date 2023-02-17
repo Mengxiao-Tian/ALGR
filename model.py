@@ -174,7 +174,6 @@ class CAMERA(object):
         self.txt_enc.load_state_dict(model_dict_txt)
 
         if len(state_dict)>2: 
-            print('finetune', len(state_dict))
             new_state_dict = OrderedDict()
             for k, v in state_dict[2].items():
                 new_state_dict[k] = v
